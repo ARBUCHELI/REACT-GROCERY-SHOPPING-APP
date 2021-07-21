@@ -1,0 +1,79 @@
+html, body {
+	height: 100%;
+  background-color: #b7d7e8;
+  text-align: left;
+  margin: 0;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 8px;
+}
+
+img {
+    width: 150px;
+}
+
+img.rounded-corners {
+    border-radius: 30px;
+  }
+
+.header {
+    text-align: center;
+    margin: 1em 2em 10px 2em;
+    padding: 2em 2em 0.5em 2em;
+    border-radius: 5px;
+    background-color: #6B8E23;
+}
+
+.h1-header {
+    font-family: impact;
+    color: #DAA520;
+    font-size: 4em;
+}
+
+main {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("super.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 96%;
+    background-position: center;
+    background-color: #b7d7e8;
+}
+
+.grocery-header {
+    font-family: impact;
+    font-size: 3em;
+}
+
+.grocery-header2 {
+    font-family: impact;
+    font-size: 2em;
+}
+
+.buttonsList {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+
+footer {
+    margin-top: 25em;
+    margin-bottom: 2em;
+    font-family: impact;
+    color: #34568B;
+}
+
+footer p {
+    margin: 0;
+    font-family: impact;
+}
+
+
